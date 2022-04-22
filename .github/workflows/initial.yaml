@@ -1,4 +1,5 @@
 name: Deployment
+concurrency: production
 on:
   push:
     branches:
@@ -11,4 +12,4 @@ jobs:
       - name: "Say hello to Nimish"
         run: echo "Hello to $myname"
         env:
-          myname: Nimish
+          myname: NM
