@@ -12,4 +12,4 @@ jobs:
       - name: "Say hello to Nimish"
         run: echo "Hello to $myname"
         env:
-          myname: NM
+          myname: Nimish
